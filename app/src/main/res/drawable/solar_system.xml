@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportHeight="200"
+    android:viewportWidth="200">
+
+    <!--solar-->
+    <group android:name="@string/group_solar">
+
+        <path
+            android:name="@string/path_solar"
+            android:fillColor="@color/solar_color_start"
+            android:pathData="M 105 100
+                A 5 5 0 1 0 95 100
+                A 5 5 0 1 0 105 100
+            " />
+
+    </group>
+
+
+    <!--mercury-->
+    <group
+        android:name="@string/group_mercury"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 108 100
+                A 8 8 0 1 0 92 100
+                A 8 8 0 1 0 108 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <path
+            android:name="@string/path_mercury"
+            android:fillColor="@color/mercury_color"
+            android:pathData="M 109 100
+                A 1 1 0 1 0 107 100
+                A 1 1 0 1 0 109 100
+            " />
+
+    </group>
+
+    <!--venus-->
+    <group
+        android:name="@string/group_venus"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 113 100
+                A 8 8 0 1 0 87 100
+                A 8 8 0 1 0 113 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <path
+            android:name="@string/path_venus"
+            android:fillColor="@color/venus_color"
+            android:pathData="M 114.1 100
+                A 1.1 1.1 0 1 0 111.9 100
+                A 1.1 1.1 0 1 0 114.1 100
+            " />
+
+    </group>
+
+    <!--earth-->
+    <group
+        android:name="@string/group_earth"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 119 100
+                A 19 19 0 1 0 81 100
+                A 19 19 0 1 0 119 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <path
+            android:name="@string/path_earth"
+            android:fillColor="@color/earth_color"
+            android:pathData="M 120.3 100
+                A 1.3 1.3 0 1 0 117.7 100
+                A 1.3 1.3 0 1 0 120.3 100
+            " />
+
+        <group
+            android:name="group_moon"
+            android:pivotX="119"
+            android:pivotY="100">
+
+            <path
+                android:pathData="M 122 100
+                A 3 3 0 1 0 116 100
+                A 3 3 0 1 0 122 100
+            "
+                android:strokeColor="@color/grey"
+                android:strokeWidth="0.2" />
+
+            <path
+                android:name="@string/path_moon"
+                android:fillColor="@color/moon_color"
+                android:pathData="M 122.5 100
+                A 0.5 0.5 0 1 0 121.5 100
+                A 0.5 0.5 0 1 0 122.5 100
+            " />
+
+        </group>
+
+    </group>
+
+
+    <!--mars-->
+    <group
+        android:name="@string/group_mars"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 126 100
+                A 26 26 0 1 0 74 100
+                A 26 26 0 1 0 126 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <path
+            android:name="@string/path_mars"
+            android:fillColor="@color/mars_color"
+            android:pathData="M 127.2 100
+                A 1.2 1.2 0 1 0 124.8 100
+                A 1.2 1.2 0 1 0 127.2 100
+            " />
+
+    </group>
+
+    <!--small stars-->
+    <group
+        android:name="@string/group_small_stars"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 132 100
+                A 26 26 0 1 0 68 100
+                A 26 26 0 1 0 132 100
+            "
+            android:strokeAlpha="190"
+            android:strokeColor="@color/small_stars_color"
+            android:strokeWidth="1" />
+
+        <path
+            android:fillColor="@color/small_stars_color"
+            android:pathData="M 132.2 100
+                A 0.2 0.2 0 1 0 131.8 100
+                A 0.2 0.2 0 1 0 132.2 100
+            " />
+
+        <path
+            android:fillColor="@color/small_stars_color"
+            android:pathData="M 68.15 100
+                A 0.15 0.15 0 1 0 67.85 100
+                A 0.15 0.15 0 1 0 68.15 100
+            " />
+
+        <path
+            android:fillColor="@color/small_stars_color"
+            android:pathData="M 131.1 108.3
+                A 0.15 0.15 0 1 0 130.8 108.3
+                A 0.15 0.15 0 1 0 131.1 108.3
+            " />
+
+        <path
+            android:fillColor="@color/small_stars_color"
+            android:pathData="M 97.2 132.3
+                A 0.2 0.2 0 1 0 96.8 132.3
+                A 0.2 0.2 0 1 0 97.2 132.3
+            " />
+
+        <path
+            android:fillColor="@color/small_stars_color"
+            android:pathData="M 85.2 72.3
+                A 0.2 0.2 0 1 0 84.8 72.3
+                A 0.2 0.2 0 1 0 85.2 72.3
+            " />
+
+        <path
+            android:fillColor="@color/small_stars_color"
+            android:pathData="M 115.2 71.0
+                A 0.2 0.2 0 1 0 114.8 71.0
+                A 0.2 0.2 0 1 0 115.2 71.0
+            " />
+
+    </group>
+
+    <!--jupiter-->
+    <group
+        android:name="@string/group_jupiter"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 140 100
+                A 40 40 0 1 0 60 100
+                A 40 40 0 1 0 140 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <path
+            android:name="@string/path_jupiter"
+            android:fillColor="@color/jupiter_color_background"
+            android:pathData="M 143 100
+                A 3 3 0 1 0 137 100
+                A 3 3 0 1 0 143 100
+            " />
+
+        <group
+            android:name="@string/group_jupiter_ring"
+            android:pivotX="140"
+            android:pivotY="100">
+
+            <path
+                android:fillAlpha="140"
+                android:fillColor="@color/jupiter_color"
+                android:pathData="M 142.0 97.8
+                A 4 2 0 0 1 138 97.8
+                A 1 0.44 0 0 1 142.0 97.8
+            " />
+
+            <path
+                android:fillColor="@color/jupiter_color"
+                android:pathData="M 142.9 99.8
+                A 4 0.8 0 0 1 137.0 99.8
+                A 1 1 0 0 1 137.3 98.8
+                A 4 1 0 0 0 142.7 98.8
+                A 1 1 0 0 1 143 99.8
+            " />
+
+            <path
+                android:fillColor="@color/jupiter_color"
+                android:pathData="M 142.9 100.5
+                A 4 0.9 0 0 1 137.1 100.5
+                A 1 1 0 0 0 137.5 101.5
+                A 4 1 0 0 0 142.4 101.5
+                A 1 1 0 0 0 142.9 100.5
+            " />
+        </group>
+
+    </group>
+
+    <!--Saturn-->
+    <group
+        android:name="@string/group_saturn"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 150 100
+                A 26 26 0 1 0 50 100
+                A 26 26 0 1 0 150 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <path
+            android:name="@string/path_saturn"
+            android:fillColor="@color/saturn_color"
+            android:pathData="M 152.7 100
+                A 2.7 2.7 0 1 0 147.3 100
+                A 2.7 2.7 0 1 0 152.7 100
+            " />
+
+        <group
+            android:name="@string/group_saturn_ring"
+            android:pivotX="150"
+            android:pivotY="100">
+
+            <path
+                android:fillColor="@color/saturn_ring_color"
+                android:pathData="M 152.6 99.8
+                    A 4 0.8 0 0 1 147.3 99.8
+                    A 1 1 0 0 1 147.4 99.2
+                    A 4 1 0 0 0 152.7 99.2
+                    A 1 1 0 0 1 152.6 99.8
+                " />
+
+            <path
+                android:fillColor="@color/saturn_out_ring_color"
+                android:pathData="M 152.6 99.5
+                    A 3.7 0.5 0 1 1 147.4 99.5
+                    A 2.7 2.7 0 0 1 147.6 99
+                    A 6 1 0 1 0 152.4 99
+                " />
+
+        </group>
+
+
+    </group>
+
+    <!--Uranus-->
+    <group
+        android:name="@string/group_uranus"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 160 100
+                A 26 26 0 1 0 40 100
+                A 26 26 0 1 0 160 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <path
+            android:fillColor="@color/uranus_color"
+            android:pathData="M 162 100
+                A 1.2 1.2 0 1 0 158 100
+                A 1.2 1.2 0 1 0 162 100
+            " />
+
+    </group>
+
+
+    <!--Neptune-->
+    <group
+        android:name="@string/group_neptune"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 170 100
+                A 26 26 0 1 0 30 100
+                A 26 26 0 1 0 170 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <path
+            android:fillColor="@color/neptune_color"
+            android:pathData="M 171.8 100
+                A 1.2 1.2 0 1 0 168.2 100
+                A 1.2 1.2 0 1 0 171.8 100
+            " />
+
+    </group>
+
+    <!--Halley-->
+    <group
+        android:name="@string/group_halley"
+        android:pivotX="100"
+        android:pivotY="100">
+
+        <path
+            android:pathData="M 190 100
+                A 50 25 0 1 0 90 100
+                A 50 25 0 1 0 190 100
+            "
+            android:strokeColor="@color/grey"
+            android:strokeWidth="0.2" />
+
+        <group
+            android:name="@string/group_halley_body"
+            android:pivotX="140"
+            android:pivotY="100"
+            >
+
+            <path
+                android:fillColor="@color/halley_color"
+                android:pathData="M 190.5 100
+                A 0.5 0.5 0 1 0 189.5 100
+                A 0.5 0.5 0 1 0 190.5 100
+            " />
+
+            <group
+                android:name="@string/group_halley_tail"
+                android:pivotX="190"
+                android:pivotY="100"
+                >
+
+                <path
+                    android:fillColor="@color/halley_color"
+                    android:fillAlpha="255"
+                    android:pathData="M 190.5 100
+                        A 0.5 0.5 0 1 0 189.5 100
+                        A 0.5 0.5 0 1 0 190.5 100
+                    "/>
+
+            </group>
+
+
+
+        </group>
+
+    </group>
+
+
+</vector>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

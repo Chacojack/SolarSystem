@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="4000"
+    android:propertyName="fillColor"
+    android:valueFrom="@color/solar_color_start"
+    android:valueTo="@color/solar_color_end"
+    android:valueType="colorType"
+    android:repeatMode="reverse"
+    android:repeatCount="infinite"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    >
+
+</objectAnimator>

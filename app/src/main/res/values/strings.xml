@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SolarSystem</string>
+    <string name="solar_path">M 100 100 A 10 10 0 1 0 200 </string>
+    <string name="group_solar">group_solar</string>
+    <string name="path_solar">path_solar</string>
+    <string name="group_mercury">group_mercury</string>
+    <string name="path_mercury">path_mercury</string>
+    <string name="rotation">rotation</string>
+    <string name="group_venus">group_venus</string>
+    <string name="path_venus">path_venus</string>
+    <string name="group_earth">group_earth</string>
+    <string name="path_earth">path_earth</string>
+    <string name="path_moon">path_moon</string>
+    <string name="group_mars">group_mars</string>
+    <string name="path_mars">path_mars</string>
+    <string name="group_small_stars">group_small_stars</string>
+    <string name="path_small_stars">path_small_stars</string>
+    <string name="group_jupiter">group_jupiter</string>
+    <string name="path_jupiter">path_jupiter</string>
+    <string name="group_jupiter_ring">group_jupiter_ring</string>
+    <string name="group_saturn">group_saturn</string>
+    <string name="path_saturn">path_saturn</string>
+    <string name="group_saturn_ring">group_saturn_ring</string>
+    <string name="group_uranus">group_uranus</string>
+    <string name="group_neptune">group_neptune</string>
+    <string name="group_halley">group_halley</string>
+    <string name="group_halley_body">group_halley_body</string>
+    <string name="group_halley_tail">group_halley_tail</string>
+</resources>

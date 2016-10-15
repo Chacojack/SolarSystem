@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/solar_system">
+
+    <target
+        android:name="path_solar"
+        android:animation="@animator/anim_solar" />
+
+    <target
+        android:name="group_mercury"
+        android:animation="@animator/anim_mercury" />
+
+    <target
+        android:name="group_venus"
+        android:animation="@animator/anim_venus" />
+
+    <target
+        android:name="group_earth"
+        android:animation="@animator/anim_earth" />
+
+    <target
+        android:name="group_moon"
+        android:animation="@animator/anim_moon" />
+
+    <target
+        android:name="group_mars"
+        android:animation="@animator/anim_mars" />
+
+    <target
+        android:name="group_small_stars"
+        android:animation="@animator/anim_small_stars" />
+
+    <target
+        android:name="group_jupiter"
+        android:animation="@animator/anim_jupiter" />
+
+    <target
+        android:name="group_jupiter_ring"
+        android:animation="@animator/anim_jupiter_ring" />
+
+    <target
+        android:name="group_saturn"
+        android:animation="@animator/anim_saturn" />
+
+    <target
+        android:name="group_saturn_ring"
+        android:animation="@animator/anim_saturn_ring" />
+
+    <target
+        android:name="group_uranus"
+        android:animation="@animator/anim_uranus" />
+
+    <target
+        android:name="group_neptune"
+        android:animation="@animator/anim_neptune" />
+
+    <target
+        android:animation="@animator/anim_halley"
+        android:name="group_halley_body"/>
+
+</animated-vector>
