@@ -350,55 +350,6 @@
 
     </group>
 
-    <!--Halley-->
-    <group
-        android:name="@string/group_halley"
-        android:pivotX="100"
-        android:pivotY="100">
-
-        <path
-            android:pathData="M 190 100
-                A 50 25 0 1 0 90 100
-                A 50 25 0 1 0 190 100
-            "
-            android:strokeColor="@color/grey"
-            android:strokeWidth="0.2" />
-
-        <group
-            android:name="@string/group_halley_body"
-            android:pivotX="140"
-            android:pivotY="100"
-            >
-
-            <path
-                android:fillColor="@color/halley_color"
-                android:pathData="M 190.5 100
-                A 0.5 0.5 0 1 0 189.5 100
-                A 0.5 0.5 0 1 0 190.5 100
-            " />
-
-            <group
-                android:name="@string/group_halley_tail"
-                android:pivotX="190"
-                android:pivotY="100"
-                >
-
-                <path
-                    android:fillColor="@color/halley_color"
-                    android:fillAlpha="255"
-                    android:pathData="M 190.5 100
-                        A 0.5 0.5 0 1 0 189.5 100
-                        A 0.5 0.5 0 1 0 190.5 100
-                    "/>
-
-            </group>
-
-
-
-        </group>
-
-    </group>
-
 
 </vector>
 

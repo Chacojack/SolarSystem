@@ -54,8 +54,4 @@
         android:name="group_neptune"
         android:animation="@animator/anim_neptune" />
 
-    <target
-        android:animation="@animator/anim_halley"
-        android:name="group_halley_body"/>
-
 </animated-vector>

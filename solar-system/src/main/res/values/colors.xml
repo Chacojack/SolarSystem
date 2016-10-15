@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="solar_color_start" >#FF7700</color>
+    <color name="solar_color_end">#FF3300</color>
+    <color name="black">#000000</color>
+    <color name="mercury_color">#666666</color>
+    <color name="grey">#222222</color>
+    <color name="venus_color">#FF6F00</color>
+    <color name="earth_color">#0066FF</color>
+    <color name="moon_color">#808080</color>
+    <color name="mars_color">#FF2200</color>
+    <color name="small_stars_color">#BBBBBB</color>
+    <color name="jupiter_color">#9B4909</color>
+    <color name="jupiter_color_background">#CBCBCB</color>
+    <color name="saturn_color">#CBCBCB</color>
+    <color name="saturn_ring_color">#B1B189</color>
+    <color name="saturn_out_ring_color">#B19D89</color>
+    <color name="uranus_color">#37DFFF</color>
+    <color name="neptune_color">#4266BC</color>
+    <color name="halley_color">#EEEEEE</color>
+</resources>
